@@ -1,0 +1,228 @@
+body {
+  font-family: Times New Roman, serif;
+  margin: 20px;
+}
+#container {
+  background-color: transparent;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  margin: 0 auto;
+}
+#container1 {
+  background-image: rgb(240, 250, 156);
+  background-image: url(t.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#grass {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(Mountain.gif);
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+
+#logo-container img {
+  max-width: 200px; /* Set the maximum width */
+  max-height: 200px; /* Set the maximum height */
+  width: auto;
+  height: auto;
+  border-radius: 50% / 0% 0% 70% 70%;
+}
+h1 {
+  text-align: center;
+}
+
+.input-table {
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse;
+}
+
+.input-table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.input-table label {
+  animation: slideInLeft 3s forwards;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-table input[type="text"] {
+  padding: 5px;
+  width: 120px; /* Adjust the width of the input fields */
+  box-sizing: border-box;
+}
+
+.button-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-section button {
+  margin: 0 5px;
+}
+
+.result-section {
+  margin-top: 20px;
+}
+
+.result-section p {
+  margin-bottom: 10px;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5385f1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+td:first-child {
+  background-color: #fdfbfb; 
+  border-left: 4px solid #5385f1;
+  border-right: 4px solid #5385f1;
+  border-top: 4px solid #5385f1;
+  border-bottom: 4px solid #5385f1;
+}
+
+.button.cash-flow {
+ 
+  animation: fadeInUp 3s forwards;
+  box-shadow: 0 0 10px #000000;
+  transition: box-shadow 0.3s ease-in-out;
+  animation: shake 0.5s;
+}
+
+.button.cash-flow:hover {
+  box-shadow: 0 0 20px #5385f1;
+}
+
+.button.cash-flow:focus {
+  outline: none;
+  box-shadow: 0 0 20px #7c0b77;
+}
+
+#revenue:hover {
+  background-color: #45c3da; /* Replace with your desired background color on hover */
+  cursor: pointer; /* Replace with the desired cursor style on hover */
+}
+
+#fixed-costs:hover {
+  background-color: #45c3da; /* Replace with your desired background color on hover */
+  cursor: pointer; /* Replace with the desired cursor style on hover */
+}
+#variable-costs:hover {
+  background-color: #45c3da; /* Replace with your desired background color on hover */
+  cursor: pointer; /* Replace with the desired cursor style on hover */
+}
+#selling-price:hover {
+  background-color: #45c3da; /* Replace with your desired background color on hover */
+  cursor: pointer; /* Replace with the desired cursor style on hover */
+}
+
+
+#title {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke: 1px #1f1b1b;
+  background: url(rr.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  border-right: 2px solid;
+  margin: 0 auto;
+          
+}
+
+
+
+@keyframes back{
+  50%{
+        background-position: 200px 56px;
+  }
+}
+
+
+
+/* CSS */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* CSS */
+@keyframes slideInCenter {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
