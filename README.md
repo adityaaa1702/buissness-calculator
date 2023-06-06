@@ -2,7 +2,7 @@
 
 # Business Calculator
 
-[![My Website](https://example.com/images/my-website-image.png)][https://adityaaa1702.github.io/buissness-calculator/]
+[![My Website](https://github.com/adityaaa1702/buissness-calculator/blob/8aea39dbd924a4e5489c89385b827957e01eaf6b/calculater.gif)[https://adityaaa1702.github.io/buissness-calculator/]
 
 
 The Business Calculator is a web application that allows users to perform cash flow analysis and break-even calculations for their business. It provides an intuitive interface for entering revenue, costs, and selling prices, and displays the calculated profit and break-even point.
