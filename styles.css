@@ -42,8 +42,8 @@ body {
 
 
 #logo-container img {
-  max-width: 200px; /* Set the maximum width */
-  max-height: 200px; /* Set the maximum height */
+  max-width: 200px; 
+  max-height: 200px; 
   width: auto;
   height: auto;
   border-radius: 50% / 0% 0% 70% 70%;
@@ -53,8 +53,8 @@ h1 {
 }
 
 .input-table {
-  width: fit-content; /* Adjust the width to fit the content */
-  margin: 0 auto; /* Center the table horizontally */
+  width: fit-content;  
+  margin: 0 auto; 
   border-collapse: collapse;
 }
 
@@ -72,7 +72,7 @@ h1 {
 
 .input-table input[type="text"] {
   padding: 5px;
-  width: 120px; /* Adjust the width of the input fields */
+  width: 120px; 
   box-sizing: border-box;
 }
 
@@ -150,21 +150,21 @@ td:first-child {
 }
 
 #revenue:hover {
-  background-color: #45c3da; /* Replace with your desired background color on hover */
-  cursor: pointer; /* Replace with the desired cursor style on hover */
+  background-color: #45c3da; 
+  cursor: pointer;
 }
 
 #fixed-costs:hover {
-  background-color: #45c3da; /* Replace with your desired background color on hover */
-  cursor: pointer; /* Replace with the desired cursor style on hover */
+  background-color: #45c3da; 
+  cursor: pointer; 
 }
 #variable-costs:hover {
-  background-color: #45c3da; /* Replace with your desired background color on hover */
-  cursor: pointer; /* Replace with the desired cursor style on hover */
+  background-color: #45c3da; 
+  cursor: pointer; 
 }
 #selling-price:hover {
-  background-color: #45c3da; /* Replace with your desired background color on hover */
-  cursor: pointer; /* Replace with the desired cursor style on hover */
+  background-color: #45c3da; 
+  cursor: pointer; 
 }
 
 
@@ -213,7 +213,6 @@ td:first-child {
   }
 }
 
-/* CSS */
 @keyframes slideInCenter {
   0% {
     opacity: 0;
