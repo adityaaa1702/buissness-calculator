@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Business Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<div><iframe src="cashflow.html" frameborder="3" width="400px" height="400px" class="left-most"></iframe>
+  <iframe src="breakeven.html" frameborder="3" width="400px" height="400px" class="right-most "></iframe>
+</div>
+<body>
+  <div id="grass">
+
+  <div id = "container">
+  <div id="logo-container">
+    <img src="logo.gif" alt="Logo">
+  </div>
+  <script src="app.js"></script>
+
+<h1 id="title">Business Calculator</h1>
+  <form id="calculatorForm">
+  <table class="input-table">
+    <tr>
+      <td><label for="revenue" color="#fff">Revenue:</label></td>
+      <td><input type="text" id="revenue" placeholder="Enter revenue"></td>
+    </tr>
+    <tr>
+      <td><label for="fixed-costs">Fixed Costs:</label></td>
+      <td><input type="text" id="fixed-costs" placeholder="Enter fixed costs"></td>
+    </tr>
+    <tr>
+      <td><label for="variable-costs">Variable Costs:</label></td>
+      <td><input type="text" id="variable-costs" placeholder="Enter variable costs"></td>
+    </tr>
+    <tr>
+      <td><label for="selling-price">Selling Price:</label></td>
+      <td><input type="text" id="selling-price" placeholder="Enter selling price"></td>
+    </tr>
+  </table>
+
+  <div class="button-section">
+    <button id="cashflow-btn" class="button cash-flow " onclick="calculateCashFlow()">Calculate Cash Flow</button>
+    <button id="breakeven-btn" class="button cash-flow" onclick="calculateBreakEven()">Calculate Break-even</button>
+  </div>
+
+  <div class="result-section" id="container1">
+    <p><strong>Profit:</strong> <span id="profit"></span></p>
+    <p><strong>Break-even Quantity:</strong> <span id="break-even-quantity"></span></p>
+  
+  </div>
+</div>
+
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
